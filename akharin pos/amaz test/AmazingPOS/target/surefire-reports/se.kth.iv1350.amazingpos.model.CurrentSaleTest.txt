@@ -1,0 +1,31 @@
+-------------------------------------------------------------------------------
+Test set: se.kth.iv1350.amazingpos.model.CurrentSaleTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.062 s <<< FAILURE! - in se.kth.iv1350.amazingpos.model.CurrentSaleTest
+testAddItemThrowsDatabaseFailureException  Time elapsed: 0.036 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown ==> expected: <se.kth.iv1350.amazingpos.model.exception.DatabaseFailureException> but was: <java.lang.RuntimeException>
+	at se.kth.iv1350.amazingpos.model.CurrentSaleTest.testAddItemThrowsDatabaseFailureException(CurrentSaleTest.java:59)
+Caused by: java.lang.RuntimeException: 
+Uncompilable code - cannot access se.kth.iv1350.amazingpos.util.CurrentSaleNotifier
+  class file for se.kth.iv1350.amazingpos.util.CurrentSaleNotifier not found
+	at se.kth.iv1350.amazingpos.model.CurrentSaleTest.lambda$testAddItemThrowsDatabaseFailureException$2(CurrentSaleTest.java:1)
+	at se.kth.iv1350.amazingpos.model.CurrentSaleTest.testAddItemThrowsDatabaseFailureException(CurrentSaleTest.java:59)
+
+testAddItemThrowsProductNotFoundException  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown ==> expected: <se.kth.iv1350.amazingpos.model.exception.ProductNotFoundException> but was: <java.lang.RuntimeException>
+	at se.kth.iv1350.amazingpos.model.CurrentSaleTest.testAddItemThrowsProductNotFoundException(CurrentSaleTest.java:34)
+Caused by: java.lang.RuntimeException: 
+Uncompilable code - cannot access se.kth.iv1350.amazingpos.util.CurrentSaleNotifier
+  class file for se.kth.iv1350.amazingpos.util.CurrentSaleNotifier not found
+	at se.kth.iv1350.amazingpos.model.CurrentSaleTest.lambda$testAddItemThrowsProductNotFoundException$0(CurrentSaleTest.java:1)
+	at se.kth.iv1350.amazingpos.model.CurrentSaleTest.testAddItemThrowsProductNotFoundException(CurrentSaleTest.java:34)
+
+testAddItemThrowsOutOfStockException  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown ==> expected: <se.kth.iv1350.amazingpos.model.exception.OutOfStockException> but was: <java.lang.RuntimeException>
+	at se.kth.iv1350.amazingpos.model.CurrentSaleTest.testAddItemThrowsOutOfStockException(CurrentSaleTest.java:47)
+Caused by: java.lang.RuntimeException: 
+Uncompilable code - cannot access se.kth.iv1350.amazingpos.util.CurrentSaleNotifier
+  class file for se.kth.iv1350.amazingpos.util.CurrentSaleNotifier not found
+	at se.kth.iv1350.amazingpos.model.CurrentSaleTest.lambda$testAddItemThrowsOutOfStockException$1(CurrentSaleTest.java:1)
+	at se.kth.iv1350.amazingpos.model.CurrentSaleTest.testAddItemThrowsOutOfStockException(CurrentSaleTest.java:47)
+
