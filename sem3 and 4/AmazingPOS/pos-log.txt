@@ -1,0 +1,14 @@
+22 May 2024, 18:28:10, Exception was thrown: Item with ID Item with ID 004 not found. not found.
+se.kth.iv1350.amazingpos.model.exception.ItemNotFoundException: Item with ID Item with ID 004 not found. not found.
+	at se.kth.iv1350.amazingpos.model.CurrentSale.addItem(CurrentSale.java:29)
+	at se.kth.iv1350.amazingpos.controller.Controller.addItemToSale(Controller.java:54)
+	at se.kth.iv1350.amazingpos.view.View.addItemToSale(View.java:52)
+	at se.kth.iv1350.amazingpos.view.View.executionInterface(View.java:23)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:24)
+22 May 2024, 18:31:14, Exception was thrown: Item with ID Item with ID 004 not found. not found.
+se.kth.iv1350.amazingpos.model.exception.ItemNotFoundException: Item with ID Item with ID 004 not found. not found.
+	at se.kth.iv1350.amazingpos.model.CurrentSale.addItem(CurrentSale.java:29)
+	at se.kth.iv1350.amazingpos.controller.Controller.addItemToSale(Controller.java:54)
+	at se.kth.iv1350.amazingpos.view.View.addItemToSale(View.java:52)
+	at se.kth.iv1350.amazingpos.view.View.executionInterface(View.java:23)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:24)
